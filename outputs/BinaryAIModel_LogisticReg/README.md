@@ -1,7 +1,7 @@
 #Logistic regression
 
 ## Output Screenshot
-![Logistic Regression Output](Output1.png.png)
+![Logistic Regression Output](output.png.png)
 
 Explanation:The plot below shows the decision boundary created by the logistic regression model. 
 - Each data point is classified into one of two classes (0 or 1). 
