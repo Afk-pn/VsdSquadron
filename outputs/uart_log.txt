@@ -1,0 +1,1 @@
+UART: Predicted digit = 7, Confidence = 0.92
