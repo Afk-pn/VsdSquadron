@@ -50,8 +50,14 @@ EdgeAI-RISC-V/
 - Hardware–software co-simulation  
 
 🚀 Getting Started:
-Clone the repo: git clone https://github.com/Afk-pn/VsdSquadron.git
+## Setup Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Afk-pn/VsdSquadron.git
 cd VsdSquadron
+
 
 Running on RISC-V
 
