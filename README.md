@@ -96,14 +96,11 @@ Run inference on the board:
 
 
 Running on RISC-V
-
 Flash compiled C code into RISC-V SoC
-
 Use freedom-studio for simulation
-
 Test inference on edge hardware
 
-Author
+# Author
 
 Ranishree T
 🎓 B.Tech ECE @ NITK Surathkal
