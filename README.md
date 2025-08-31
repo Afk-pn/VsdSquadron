@@ -58,6 +58,42 @@ EdgeAI-RISC-V/
 git clone https://github.com/Afk-pn/VsdSquadron.git
 cd VsdSquadron
 ```
+2. Running the Machine Learning Notebook (Python)
+
+Make sure Python 3.11+ and Jupyter Notebook are installed.
+(Optional) Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate      # Linux/macOS
+venv\Scripts\activate         # Windows
+```
+3.Install required Python packages:
+```bash
+pip install -r requirements.txt
+```
+4.Open and run notebook
+```bash
+jupyter notebook
+```
+3. Running the SiFive C Code
+
+-Make sure Freedom Studio IDE is installed.
+-Build the project:
+```bash
+./scripts/build.sh
+```
+Flash the firmware to the board:
+```bash
+./scripts/flash.sh
+```
+Run inference on the board:
+```bash
+./scripts/run_inference.sh
+```
+# Notes
+-Run the notebook first to generate the trained model before running the C code on the board.
+-ML code runs in Jupyter, hardware code runs on SiFive using the build/flash scripts.
+
 
 Running on RISC-V
 
