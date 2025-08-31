@@ -1,10 +1,10 @@
 # KNN + SVM
 
-## Parameters Visualization
+## Non scaled data
 ![Parameters](parameters.png)
 
 ## Scaled Data
 ![Scaled](scaled.png)
 
-## Not Scaled Data
+## Parameters Visualization
 ![Not Scaled](not_scaled.png)
