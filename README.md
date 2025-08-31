@@ -57,7 +57,7 @@ EdgeAI-RISC-V/
 ```bash
 git clone https://github.com/Afk-pn/VsdSquadron.git
 cd VsdSquadron
-
+```
 
 Running on RISC-V
 
