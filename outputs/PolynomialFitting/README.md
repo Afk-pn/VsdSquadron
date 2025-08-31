@@ -1,7 +1,7 @@
 #Polynomial fitting
 
 ## Output Screenshot
-![Polynomial fitting Output](outputs/PolynomialFitting)
+![Polynomial fitting Output](PolynomialFitting)
 
 ### 2.Parameters
-![Parameters](outputs/PolynomialFitting/parameters.png)
+![Parameters](parameters.png)
