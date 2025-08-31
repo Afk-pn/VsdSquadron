@@ -43,16 +43,28 @@ EdgeAI-RISC-V/
 
 ---
 
-## 🚀 Features
--Edge AI Inference – Deploys a trained neural network model directly on the SiFive RISC-V board for real-time inference.
--Quantized Models – Supports 4-bit and 8-bit quantized weights for low-memory, high-efficiency deployment.
--Bare-Metal Implementation – Runs without an operating system, directly on the hardware for minimal latency.
--Python Notebook Support – Easy-to-run Jupyter Notebook for training, evaluation, and exporting models to C.
--Automated Build & Flash Scripts – Ready-to-use scripts for building and flashing firmware to the SiFive board.
--Modular Code Structure – Clear separation between ML preprocessing, model export, and C code for inference.
--Simulation & Verification – Ability to test and validate model outputs before flashing to hardware.
--Cross-Platform Compatible – Works on Windows, Linux, and macOS (Python part); hardware part works on SiFive board.
--Documentation Ready – Includes step-by-step instructions to run ML notebook and deploy on SiFive. 
+## Features
+
+- **Edge AI Inference** – Deploys a trained neural network model directly on the SiFive RISC-V board for real-time inference.
+
+- **Quantized Models** – Supports 4-bit and 8-bit quantized weights for low-memory, high-efficiency deployment.
+
+- **Bare-Metal Implementation** – Runs without an operating system, directly on the hardware for minimal latency.
+
+- **Python Notebook Support** – Easy-to-run Jupyter Notebook for training, evaluation, and exporting models to C.
+
+- **Automated Build & Flash Scripts** – Ready-to-use scripts for building and flashing firmware to the SiFive board.
+
+- **Modular Code Structure** – Clear separation between ML preprocessing, model export, and C code for inference.
+
+- **Simulation & Verification** – Ability to test and validate model outputs before flashing to hardware.
+
+- **Cross-Platform Compatible** – Works on Windows, Linux, and macOS (Python part); hardware part works on SiFive board.
+
+- **Documentation Ready** – Includes step-by-step instructions to run ML notebook and deploy on SiFive.
+
+- **Expandable Framework** – Can integrate other neural network models or datasets with minimal changes.
+
 
 # 🚀 Getting Started:
 ## Setup Instructions
