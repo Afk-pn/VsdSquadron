@@ -1,10 +1,10 @@
-#Knn and svm
+# KNN + SVM
 
-## Not scaled Knn output
-![Knn Output](outputs/Knn_Svm/parameters.png)
+## Non scaled data
+![Parameters](parameters.png)
 
-### 2.Scaled KNN output
-![Knn Output](outputs/Knn_Svm/scaled.png)
+## Scaled Data
+![Scaled](scaled.png)
 
-### 3.Svm Parameters
-![parameters](outputs/Knn_Svm/not_scaled.png)
+## Parameters Visualization
+![Not Scaled](not_scaled.png)
