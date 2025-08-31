@@ -24,18 +24,11 @@ Why this matters:
 EdgeAI-RISC-V/
 ├── docs/ # Documentation, diagrams
 │ └── architecture_diagram.png
-├── src/ # Source code (C/Assembly)
-│ ├── main.c
-│ ├── inference.c
-│ └── riscv_hal.h
+├── c_codes_for_Sifive/ # Source code (C/Assembly)
 ├── models/ # ML models (quantized)
 │ └── mnist_quant.tflite
 ├── notebooks/ # Training & quantization
-│ ├── DataExploration.ipynb
-│ └── Train_Quantize_Deploy.ipynb
 ├── outputs/ # Logs, plots, results
-│ ├── accuracy_plot.png
-│ └── uart_log.txt
 ├── Makefile # Build automation
 ├── requirements.txt # Python dependencies
 ├── LICENSE # MIT License
