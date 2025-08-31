@@ -18,5 +18,26 @@ Why this matters:
 
 ---
 
+
 ## 📂 Repository Structure
+
+EdgeAI-RISC-V/
+├── docs/ # Documentation, diagrams
+│ └── architecture_diagram.png
+├── src/ # Source code (C/Assembly)
+│ ├── main.c
+│ ├── inference.c
+│ └── riscv_hal.h
+├── models/ # ML models (quantized)
+│ └── mnist_quant.tflite
+├── notebooks/ # Training & quantization
+│ ├── DataExploration.ipynb
+│ └── Train_Quantize_Deploy.ipynb
+├── outputs/ # Logs, plots, results
+│ ├── accuracy_plot.png
+│ └── uart_log.txt
+├── Makefile # Build automation
+├── requirements.txt # Python dependencies
+├── LICENSE # MIT License
+└── README.md # Project documentation
 
