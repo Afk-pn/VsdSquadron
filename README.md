@@ -34,27 +34,20 @@ EdgeAI-RISC-V/
 ├── LICENSE # MIT License
 └── README.md # Project documentation
 
-⚡ Features
 
-Implementation of machine learning algorithms for classification
+## 🛠️ Tech Stack
+- **Languages:** Python, C  
+- **Frameworks:** PyTorch, NumPy, Matplotlib  
+- **Hardware:** RISC-V, VSD Squadron Board  
+- **Tools:** Jupyter Notebook, GitHub  
 
-Training & exporting models to RISC-V environment
+---
 
-Data preprocessing & scaling (normalization for inference)
-
-Deployment-ready C codes for RISC-V based SoC
-
-Step-by-step workshop exercises
-
-🛠️ Technologies Used
-
-Python (PyTorch, NumPy, scikit-learn)
-
-C for RISC-V (Baremetal programming)
-
-Freedom Metal libraries
-
-VSDSquadronPRO environment
+## 🚀 Features
+- Polynomial fitting using Gradient Descent  
+- Model training and inference pipeline  
+- Deployment on RISC-V board  
+- Hardware–software co-simulation  
 
 🚀 Getting Started:
 Clone the repo: git clone https://github.com/Afk-pn/VsdSquadron.git
