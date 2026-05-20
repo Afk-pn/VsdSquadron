@@ -1,8 +1,7 @@
 # Edge AI Deployment on RISC-V (SiFive VSDSquadron)
 
-This project demonstrates **Edge AI inference on the RISC-V architecture** using the VSDSquadron platform.  
+This project explores deployment of lightweight machine learning models on resource-constrained RISC-V embedded hardware using the SiFive VSDSquadron platform.
 It integrates a quantized neural network with RISC-V baremetal code to showcase the future of **TinyML on open hardware**. 
-This project also explores deployment of lightweight machine learning models on resource-constrained RISC-V embedded hardware using the SiFive VSDSquadron platform.
 
 ---
 
