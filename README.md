@@ -21,21 +21,20 @@ Why this matters:
 
 ## Repository Structure
 
+```text
 EdgeAI-RISC-V/
-├── MNSIT Prediction/ # C codes
-│ └── BitInference.c
-├── docs/ # Documentation, diagrams
-│ └── architecture_diagram.png
-├── c_codes_for_Sifive/ # Source code (C/Assembly)
-├── models/ # ML models (quantized)
-│ └── mnist_quant.tflite
-├── notebooks/ # Training & quantization
-├── outputs/ # Logs, plots, results
-├── Neural Network Visualization/ # Visualization images
-├── Makefile # Build automation
-├── requirements.txt # Python dependencies
-├── LICENSE # MIT License
-└── README.md # Project documentation
+├── MNIST Prediction/              # C inference codes
+├── Architecture overview/         # Documentation and architecture diagrams
+├── c_codes_for_Sifive/            # Source code for SiFive deployment
+├── models/                        # Quantized ML models
+├── notebooks/                     # Training and quantization workflows
+├── outputs/                       # Logs, plots, and inference results
+├── Neural Network Visualization/  # Neural network visualization images
+├── Makefile                       # Build automation
+├── requirements.txt               # Python dependencies
+├── LICENSE                        # MIT License
+└── README.md                      # Project documentation
+```
 
 
 ##  Technologies used
