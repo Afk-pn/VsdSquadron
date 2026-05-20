@@ -22,6 +22,8 @@ Why this matters:
 ## Repository Structure
 
 EdgeAI-RISC-V/
+├── MNSIT Prediction/ # C codes
+│ └── BitInference.c
 ├── docs/ # Documentation, diagrams
 │ └── architecture_diagram.png
 ├── c_codes_for_Sifive/ # Source code (C/Assembly)
@@ -29,6 +31,7 @@ EdgeAI-RISC-V/
 │ └── mnist_quant.tflite
 ├── notebooks/ # Training & quantization
 ├── outputs/ # Logs, plots, results
+├── Neural Network Visualization/ # Visualization images
 ├── Makefile # Build automation
 ├── requirements.txt # Python dependencies
 ├── LICENSE # MIT License
