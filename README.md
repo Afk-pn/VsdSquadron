@@ -1,11 +1,12 @@
-# Edge AI on RISC-V 🚀
+# Edge AI Deployment on RISC-V (SiFive VSDSquadron)
 
 This project demonstrates **Edge AI inference on the RISC-V architecture** using the VSDSquadron platform.  
-It integrates a quantized neural network with RISC-V baremetal code to showcase the future of **TinyML on open hardware**.  
+It integrates a quantized neural network with RISC-V baremetal code to showcase the future of **TinyML on open hardware**. 
+This project also explores deployment of lightweight machine learning models on resource-constrained RISC-V embedded hardware using the SiFive VSDSquadron platform.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 - **Goal**: Run AI models efficiently on resource-constrained RISC-V devices.  
 - **Platform**: VSDSquadron (SiFive-based RISC-V board).  
@@ -19,7 +20,7 @@ Why this matters:
 ---
 
 
-## 📂 Repository Structure
+## Repository Structure
 
 EdgeAI-RISC-V/
 ├── docs/ # Documentation, diagrams
@@ -35,7 +36,7 @@ EdgeAI-RISC-V/
 └── README.md # Project documentation
 
 
-## 🛠️ Tech Stack
+##  Technologies used
 - **Languages:** Python, C  
 - **Frameworks:** PyTorch, NumPy, Matplotlib  
 - **Hardware:** RISC-V, VSD Squadron Board  
@@ -66,7 +67,7 @@ EdgeAI-RISC-V/
 - **Expandable Framework** – Can integrate other neural network models or datasets with minimal changes.
 
 
-# 🚀 Getting Started:
+#  Getting Started:
 ## Setup Instructions
 
 1. Clone the repository:
@@ -117,6 +118,11 @@ Flash compiled C code into RISC-V SoC
 Use freedom-studio for simulation
 Test inference on edge hardware
 
+
+## Results
+- Successfully tested lightweight ML inference workflows on RISC-V hardware
+- Observed reduced memory footprint using quantized models
+- Explored real-time inference constraints for Edge AI systems
 # Author
 
 Ranishree T
