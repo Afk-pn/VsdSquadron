@@ -20,9 +20,8 @@ uint32_t ReLUNorm(int32_t *input, int8_t *output, uint32_t n_input) {
         }
     }
 
-    // Normalization 
-    // Dynamic shift according to max value in the input array
-    scale=max_val>>7;  // define max range, all bits above 7 will be shifted down
+  
+    scale=max_val>>7;  
     shift=0;
 
     while (scale>0) {
@@ -30,11 +29,10 @@ uint32_t ReLUNorm(int32_t *input, int8_t *output, uint32_t n_input) {
         scale>>=1;
     }
 
-    // impact of rounding is almost negligible (+0.03% in eval accuracy)
-    // But rounding affects mismatch to python inference engine
+    
     rounding   = 1 << (shift - 1);  
 
-    // Apply ReLU activation and normalize to 8-bit
+    
     for (uint32_t i = 0; i < n_input; i++) {
         // Apply ReLU activation
         if (input[i] < 0) {
