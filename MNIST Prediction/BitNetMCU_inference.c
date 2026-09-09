@@ -1,24 +1,8 @@
-/*
-    BitNetMCU inference functions
-    @cpldcpu April 2024
-
-    Performs inference on fully connected layer on a very resource contrained MCU.
-    1,2,4 bit weights are supported.
-    
-*/
 
 #include <stdint.h>
 #include <stdio.h>
 #include "BitNetMCU_inference.h"
 
-/**
- * @brief Applies a ReLU activation function to an array of integers and normalizes the result to 8-bit integers.
- * 
- * @param input Pointer to the input array of 32-bit integers.
- * @param output Pointer to the output array of 8-bit integers.
- * @param n_input The number of elements in the input array.
- * @return The position of maximum value found in the input array before applying the ReLU activation.
- */
 
 uint32_t ReLUNorm(int32_t *input, int8_t *output, uint32_t n_input) {
     int32_t max_val = -INT32_MAX;
@@ -69,19 +53,6 @@ uint32_t ReLUNorm(int32_t *input, int8_t *output, uint32_t n_input) {
     return max_pos;
 }
 
-/**
- * @brief Processes a fully connected layer in a neural network.
- *
- * This function processes a fully connected layer in a neural network by performing
- * the dot product of the input activations and weights, and stores the result in the output array.
- *
- * @param activations Pointer to the input activations of the layer.
- * @param weights Pointer to the weights of the layer.
- * @param bits_per_weight The number of bits per weight.
- * @param n_input The number of input neurons.
- * @param n_output The number of output neurons.
- * @param output Pointer to the output array where the result of the layer is stored.
- */
 
 void processfclayer( int8_t *activations,  const uint32_t *weights, int32_t bits_per_weight, uint32_t n_input, uint32_t n_output, int32_t *output) 
 {
